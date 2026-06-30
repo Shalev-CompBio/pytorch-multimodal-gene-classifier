@@ -177,9 +177,19 @@ The Tabach Lab, Hebrew University of Jerusalem. STRING database v12.0. ESM2 (Met
 
 ---
 
+## Contact & Affiliation
+
+* **Researcher:** Shalev Yaacov, M.Sc. Candidate in Genomics & Bioinformatics.
+* **Lab:** [Prof. Yuval Tabach Lab](https://tabach-lab.com/), Faculty of Medicine.
+* **Institution:** Hebrew University of Jerusalem.
+* **Location:** Jerusalem, Israel.
+
+---
+
 > This is an active MSc research project. Results presented here are hypothesis-generating - statistically supported candidates for follow-up, not clinically validated findings. Gene-level outputs from genome-wide inference are withheld pending biological validation and publication.
 >
 > Questions, feedback, and collaboration inquiries are welcome via the contact details on the [visual portfolio site](https://shalev-compbio.github.io/Shalev-Evolutionary-Genomics-Portfolio/Visual_Portfolio/).
+
 
 ---
 
