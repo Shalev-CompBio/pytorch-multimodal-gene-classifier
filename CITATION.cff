@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Yaacov
+    given-names: Shalev
+title: "Multimodal IRD Gene Module Classifier"
+abstract: "A three-tower neural network classifier that integrates evolutionary conservation profiles (NPP), protein language model embeddings (ESM2-650M), and protein-protein interaction network embeddings (STRING v12.0 node2vec) to assign human genes to inherited retinal dystrophy phenotypic modules and perform genome-wide candidate gene discovery."
+version: 1.0.0
+date-released: 2026-06-29
+url: "https://github.com/Shalev-CompBio/pytorch-multimodal-gene-classifier"
+license: MIT

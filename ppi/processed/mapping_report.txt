@@ -1,0 +1,11 @@
+﻿=== STRING -> Gene Symbol Mapping Report ===
+Total STRING proteins in protein.info : 19,699
+Matched by pass 1 (direct name)       : 18,560
+Matched by pass 2 (HGNC alias)        : 87
+Matched by pass 3 (UniProt accession) : 2
+Total mapped proteins                 : 18,649
+Unique gene symbols matched           : 18,635
+Fraction of master gene set (20,007)  : 0.9314 (93.1%)
+
+Note: Multiple STRING proteins may map to the same gene symbol (isoforms).
+Deduplication by max edge weight is performed in Step 3 (edgelist builder).

@@ -1,0 +1,14 @@
+name: ird-classifier
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch
+      - fair-esm
+      - numpy==1.26.4
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - umap-learn
+      - adjustText
+      - pecanpy==2.0.9

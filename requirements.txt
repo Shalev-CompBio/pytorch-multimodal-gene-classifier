@@ -1,0 +1,12 @@
+# Python version: 3.11
+torch
+fair-esm
+numpy==1.26.4
+pandas
+scikit-learn
+matplotlib
+umap-learn
+adjustText
+
+# Required only for the PPI pipeline (ppi/scripts/), not needed for training or inference
+pecanpy==2.0.9

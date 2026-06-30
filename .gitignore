@@ -1,0 +1,63 @@
+# Input Data (exclude all except labels)
+input/*
+!input/DATA.md
+!input/gene_classification_SAMPLE.csv
+
+# Output and Results
+output/data_alignment/
+output/inference/
+output/train_stdout_stderr.txt
+output/train_timing.txt
+output/evaluate_stdout_stderr.txt
+output/evaluate_timing.txt
+output/figures/*.log
+
+# PPI Data
+ppi/raw/
+ppi/processed/string_edgelist_400.tsv
+
+# Model Checkpoints
+checkpoints/
+
+# Archives and Snapshots
+_archive/
+local_repo_snapshot.md
+
+# Python Cache and Build Artifacts
+scripts/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.env
+*.egg-info/
+dist/
+build/
+
+# System and IDE Files
+.claude/
+.DS_Store
+Thumbs.db
+
+# Internal research documentation — not distributed before publication
+docs/training_results.md
+docs/inference_results.md
+docs/ppi_string_node2vec.md
+
+# Local tooling and internal artifacts — not for public repository
+.claude/
+local_repo_snapshot.md
+packaging_status.md
+repomix.config.json
+scripts/umap_visualization.ipynb
+
+# Cluster scripts with real paths — see HPC_run_public/ for the sanitized version
+HPC_run/
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+output/evaluation/fusion_confusion_matrix.png
+output/evaluation/fusion_per_module_metrics.csv
+output/training/fusion_cv_metrics.csv

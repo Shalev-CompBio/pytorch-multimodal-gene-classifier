@@ -1,0 +1,20 @@
+=== STRING Edge List Report ===
+Score threshold               : 400
+Chunk size                    : 500,000
+
+--- Filtering steps ---
+Total rows in links file      : 13,715,404
+Removed (score < 400)          : 11,856,460
+Removed (no gene mapping)     : 99,678
+Removed (self-loop)           : 8
+Rows after per-chunk filter   : 1,759,258
+Removed (dedup, kept max wt)  : 880,100
+
+--- Final edge list ---
+Edges in final file           : 879,158
+Unique genes in at least 1 edge : 18,567
+Min weight                    : 0.400
+Mean weight                   : 0.598
+Max weight                    : 0.999
+
+Output: C:\Users\Shalev\OneDrive - huji.ac.il\bio_projects\multiomics_IRD_genes_clustering\IRD_nn_classifier\ppi\processed\string_edgelist_400.tsv
