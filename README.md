@@ -4,6 +4,9 @@
 
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg) ![Status: Research](https://img.shields.io/badge/Status-Research-yellow) ![License: Proprietary](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)
 
+![Focus](https://img.shields.io/badge/Focus-Computational_Genomics_%26_Bioinformatics-7B1FA2) ![Institution](https://img.shields.io/badge/Institution-Hebrew_University_of_Jerusalem-00695C)
+![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg) ![Status: Research](https://img.shields.io/badge/Status-Research-yellow) ![License: Proprietary](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)
+
 *A three-tower PyTorch fusion network that classifies human genes into inherited retinal dystrophy (IRD) phenotypic modules using evolutionary conservation, protein language model embeddings, and protein-protein interaction network topology - then applies the trained model genome-wide to surface novel candidate genes.*
 
 ---
