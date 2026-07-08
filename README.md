@@ -15,6 +15,10 @@
 
 Fusing evolutionary conservation, protein sequence, and protein-interaction network topology, this model recovers known inherited retinal dystrophy (IRD) gene-phenotype relationships at 0.44 macro-F1 - roughly 7.5× the random baseline on a 17-class problem trained on only 434 genes. Protein interaction (PPI) network topology alone, unexpectedly, proved the single strongest predictor - stronger than evolutionary conservation, protein sequence, or all three combined.
 
+
+A three-tower fusion model recovers known Inherited Retinal Diseases (IRD) gene-phenotype relationships at 0.40 macro-F1 (up to 0.77 F1 on individual phenotypic modules) - roughly 6.8× the random baseline on a 17-class problem trained on only 434 genes - by integrating evolutionary conservation, protein sequence, and protein-interaction (PPI) network topology.  
+
+A PPI-only single-tower variant scores higher on average (0.44) - expected, since PPI representation is biased toward well-studied genes, and the 434 training genes are themselves already well-characterized IRD genes.
 ---
 
 ## Visual Portfolio
