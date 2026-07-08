@@ -100,7 +100,7 @@ Applied genome-wide to ~19,573 unlabeled genes, just over half receive matching 
 ### Three-Tower Fusion Network
 
 ```text
-NPP Tower: Linear(1905→64) → ReLU → Dropout(0.3) ───────────────┐
+NPP Tower: Linear(1905→64) → ReLU → Dropout(0.3) ────────────────┐
                                                                  │
 ESM2 Tower: Linear(1280→128) → ReLU → Dropout(0.3) ──────────────┼── Concatenation (256-dim)
                                                                  │      │
