@@ -86,7 +86,8 @@ pytorch-multimodal-gene-classifier/
 | `npp_only` | 0.2212 ± 0.0179 |
 | *Random baseline (1/17 classes)* | *~0.059* |
 
-The best model reaches roughly **7.5× the random baseline** on a 17-class problem, trained on only 434 labeled genes. For context: a problem this small and this biologically noisy does not behave like image classification, where 95%+ accuracy is routine on clean, abundant data. A macro-F1 of 0.44 here reflects genuine biological heterogeneity within disease modules and a training set two orders of magnitude smaller than a typical deep learning benchmark - it is an honest, usable signal for prioritizing candidates, not a solved classification problem.
+The best model reaches roughly **7.5× the random baseline** on a 17-class problem, trained on only 434 labeled genes. For context: a problem this small and this biologically noisy does not behave like image classification, where 95%+ accuracy is routine on clean, abundant data.  
+A macro-F1 of 0.44 here reflects genuine biological heterogeneity within disease modules and a training set two orders of magnitude smaller than a typical deep learning benchmark - it is an honest, usable signal for prioritizing candidates, not a solved classification problem.
 
 Applied genome-wide to ~19,573 unlabeled genes, just over half receive matching predictions from at least two independently-trained model variants, and a smaller, more selective subset achieves unanimous agreement across all variants tested - full breakdown of the concordance methodology and reliability framework in [`docs/inference_methodology.md`](docs/inference_methodology.md).  
 One module that failed completely throughout the first project phase (F1 = 0 in most runs without PPI) produced its first strong result the moment PPI features were introduced - a concrete illustration of what this modality contributes that the others structurally cannot.
