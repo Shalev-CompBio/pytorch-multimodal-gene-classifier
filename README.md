@@ -1,9 +1,5 @@
 # pytorch-multimodal-gene-classifier
 
-![Genomics](https://img.shields.io/badge/Focus-Computational_Genomics_%26_Bioinformatics-7B1FA2) ![Language](https://img.shields.io/badge/Languages-Python_%7C_R-FF9800) ![Institution](https://img.shields.io/badge/Institution-Hebrew_University_of_Jerusalem-00695C)
-
-![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg) ![Status: Research](https://img.shields.io/badge/Status-Research-yellow) ![License: Proprietary](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)
-
 ![Focus](https://img.shields.io/badge/Focus-Computational_Genomics_%26_Bioinformatics-7B1FA2) ![Institution](https://img.shields.io/badge/Institution-Hebrew_University_of_Jerusalem-00695C)  
 ![Python 3.11](https://img.shields.io/badge/python-3.11-FF9800.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg) ![Status: Research](https://img.shields.io/badge/Status-Research-yellow) ![License: Proprietary](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)
 
